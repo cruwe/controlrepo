@@ -1,5 +1,5 @@
 #-----------------------------------------------------------------------------
-forge "https://forgeapi.puppetlabs.com"
+forge 'https://forgeapi.puppetlabs.com'
 #-----------------------------------------------------------------------------
 
 #-----------------------------------------------------------------------------
@@ -14,21 +14,18 @@ forge "https://forgeapi.puppetlabs.com"
 #-----------------------------------------------------------------------------
 
 #-----------------------------------------------------------------------------
-mod 'puppetlabs-concat',
-  :git => 'https://github.com/puppetlabs/puppetlabs-concat.git'
-mod 'puppetlabs-inifile',
+mod 'concat',
+    :git => 'https://github.com/puppetlabs/puppetlabs-concat.git'
+mod 'inifile',
     :git => 'https://github.com/puppetlabs/puppetlabs-inifile.git'
-mod 'puppetlabs-stdlib',
-  :git => 'https://github.com/puppetlabs/puppetlabs-stdlib.git'
+mod 'stdlib',
+    :git => 'https://github.com/puppetlabs/puppetlabs-stdlib.git'
 #-----------------------------------------------------------------------------
 
 #-----------------------------------------------------------------------------
 mod 'exampleprofile',
-    git: 'https://github.com/cruwe/exampleprofile'
+    :git => 'https://github.com/cruwe/exampleprofile'
 
 mod 'examplerole',
-    git: 'https://github.com/cruwe/examplerole'
+    :git => 'https://github.com/cruwe/examplerole'
 #-----------------------------------------------------------------------------
-
-
-
